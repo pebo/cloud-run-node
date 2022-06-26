@@ -2,6 +2,10 @@
   "name": "cloud-run-node",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "main": "src/app.js",
   "scripts": {
     "start": "node --version && node src/app.js"
@@ -17,8 +21,8 @@
   },
   "homepage": "https://github.com/pebo/cloud-run-node#readme",
   "dependencies": {
-    "@google-cloud/storage": "^5.14.0",
-    "express": "^4.17.1",
-    "pino": "^6.13.1"
+    "@google-cloud/storage": "^6.2.0",
+    "express": "^4.18.1",
+    "pino": "^8.1.0"
   }
 }
